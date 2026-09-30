@@ -1,0 +1,6 @@
+interface:
+  display_name: "Pixel Vibe"
+  short_description: "Пиксельные ролики и живая анимация в After Effects"
+  default_prompt: "Используй $pixel-vibe, чтобы собрать ролик в выбранном pixel/crazy стиле через After Effects."
+policy:
+  allow_implicit_invocation: true

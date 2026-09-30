@@ -1,0 +1,206 @@
+{
+  "fps": 60,
+  "duration": 40,
+  "beats": [
+    {
+      "id": "brief",
+      "start": 0,
+      "duration": 4,
+      "handle": 0.8,
+      "hold": 1.4,
+      "point": "Neutral template brief",
+      "action": "Native staged brief",
+      "result": "Visible completed artifact",
+      "background": "sky",
+      "transition": "shatter",
+      "assets": [
+        {
+          "id": "procedural-brief",
+          "source": "original JSX construction",
+          "license": "MIT",
+          "role": "hero"
+        }
+      ]
+    },
+    {
+      "id": "window",
+      "start": 4,
+      "duration": 4,
+      "handle": 0.8,
+      "hold": 1.4,
+      "point": "Neutral template window",
+      "action": "Native staged window",
+      "result": "Visible completed artifact",
+      "background": "checker",
+      "transition": "strips",
+      "assets": [
+        {
+          "id": "procedural-window",
+          "source": "original JSX construction",
+          "license": "MIT",
+          "role": "hero"
+        }
+      ]
+    },
+    {
+      "id": "terminal",
+      "start": 8,
+      "duration": 4,
+      "handle": 0.8,
+      "hold": 1.4,
+      "point": "Neutral template terminal",
+      "action": "Native staged terminal",
+      "result": "Visible completed artifact",
+      "background": "sky",
+      "transition": "page",
+      "assets": [
+        {
+          "id": "procedural-terminal",
+          "source": "original JSX construction",
+          "license": "MIT",
+          "role": "hero"
+        }
+      ]
+    },
+    {
+      "id": "diff",
+      "start": 12,
+      "duration": 4,
+      "handle": 0.8,
+      "hold": 1.4,
+      "point": "Neutral template diff",
+      "action": "Native staged diff",
+      "result": "Visible completed artifact",
+      "background": "checker",
+      "transition": "drag",
+      "assets": [
+        {
+          "id": "procedural-diff",
+          "source": "original JSX construction",
+          "license": "MIT",
+          "role": "hero"
+        }
+      ]
+    },
+    {
+      "id": "calendar",
+      "start": 16,
+      "duration": 4,
+      "handle": 0.8,
+      "hold": 1.4,
+      "point": "Neutral template calendar",
+      "action": "Native staged calendar",
+      "result": "Visible completed artifact",
+      "background": "sky",
+      "transition": "zoom",
+      "assets": [
+        {
+          "id": "procedural-calendar",
+          "source": "original JSX construction",
+          "license": "MIT",
+          "role": "hero"
+        }
+      ]
+    },
+    {
+      "id": "invoice",
+      "start": 20,
+      "duration": 4,
+      "handle": 0.8,
+      "hold": 1.4,
+      "point": "Neutral template invoice",
+      "action": "Native staged invoice",
+      "result": "Visible completed artifact",
+      "background": "checker",
+      "transition": "wipe",
+      "assets": [
+        {
+          "id": "procedural-invoice",
+          "source": "original JSX construction",
+          "license": "MIT",
+          "role": "hero"
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "start": 24,
+      "duration": 4,
+      "handle": 0.8,
+      "hold": 1.4,
+      "point": "Neutral template compare",
+      "action": "Native staged compare",
+      "result": "Visible completed artifact",
+      "background": "sky",
+      "transition": "shatter",
+      "assets": [
+        {
+          "id": "procedural-compare",
+          "source": "original JSX construction",
+          "license": "MIT",
+          "role": "hero"
+        }
+      ]
+    },
+    {
+      "id": "checklist",
+      "start": 28,
+      "duration": 4,
+      "handle": 0.8,
+      "hold": 1.4,
+      "point": "Neutral template checklist",
+      "action": "Native staged checklist",
+      "result": "Visible completed artifact",
+      "background": "checker",
+      "transition": "strips",
+      "assets": [
+        {
+          "id": "procedural-checklist",
+          "source": "original JSX construction",
+          "license": "MIT",
+          "role": "hero"
+        }
+      ]
+    },
+    {
+      "id": "task",
+      "start": 32,
+      "duration": 4,
+      "handle": 0.8,
+      "hold": 1.4,
+      "point": "Neutral template task",
+      "action": "Native staged task",
+      "result": "Visible completed artifact",
+      "background": "sky",
+      "transition": "page",
+      "assets": [
+        {
+          "id": "procedural-task",
+          "source": "original JSX construction",
+          "license": "MIT",
+          "role": "hero"
+        }
+      ]
+    },
+    {
+      "id": "portal",
+      "start": 36,
+      "duration": 4,
+      "handle": 0.8,
+      "hold": 1.4,
+      "point": "Neutral template portal",
+      "action": "Native staged portal",
+      "result": "Visible completed artifact",
+      "background": "checker",
+      "transition": "none",
+      "assets": [
+        {
+          "id": "procedural-portal",
+          "source": "original JSX construction",
+          "license": "MIT",
+          "role": "hero"
+        }
+      ]
+    }
+  ]
+}

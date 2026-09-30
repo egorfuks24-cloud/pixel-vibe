@@ -1,0 +1,13 @@
+output/
+private/
+.git/
+__pycache__/
+*.pyc
+.DS_Store
+.env*
+*.aep
+*.aepx
+*.mp4
+*.mov
+*.zip
+*.log
