@@ -17,6 +17,9 @@ class Checks(unittest.TestCase):
             p=Path(d);(p/'safe.md').write_text('Neutral content');self.assertEqual(R.audit(p)[1],[])
             (p/'safe.md').write_text('CONFIDENTIAL_FIXTURE');self.assertTrue(R.audit(p,['CONFIDENTIAL_FIXTURE'])[1])
             (p/'asset.aep').write_bytes(b'project');self.assertTrue(R.audit(p)[1])
+    def test_png_allowlist(self):
+        with tempfile.TemporaryDirectory() as d:
+            p=Path(d);a=p/'assets/backgrounds';a.mkdir(parents=True);(a/'red-checker.png').write_bytes(b'not a png');self.assertTrue(R.audit(p)[1])
     def test_symlink(self):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d);(p/'safe.md').write_text('Neutral');(p/'alias.md').symlink_to(p/'safe.md');self.assertTrue(R.audit(p)[1])

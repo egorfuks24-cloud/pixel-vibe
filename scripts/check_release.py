@@ -3,6 +3,7 @@ import argparse,re
 from pathlib import Path
 ALLOWED={'.md','.py','.js','.jsx','.yaml','.json'}
 EXACT={'.gitignore','LICENSE'}
+PLATES={'assets/backgrounds/red-checker.png','assets/backgrounds/blue-checker.png'}
 IGNORED={'.git','__pycache__'}
 PATTERNS=[r'/'+'Users'+r'/[^\s]+',r'/'+'home'+r'/[^\s]+',r'/'+'private'+r'/var/[^\s]+',r'(?i)\b(?:ghp|github_pat|sk_live|xoxb)[_-][A-Za-z0-9_-]{12,}',r'-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----',r'(?i)https?://t\.me/[A-Za-z0-9_]+',r'(?i)\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b']
 
@@ -14,6 +15,11 @@ def audit(root,denied=()):
         if p.is_symlink():issues.append((str(rel),'symlink'));continue
         if not p.is_file():continue
         count+=1
+        if str(rel) in PLATES:
+            raw=p.read_bytes()
+            if not raw.startswith(b'\x89PNG\r\n\x1a\n'):issues.append((str(rel),'invalid PNG'))
+            if any(literal.encode().lower() in raw.lower() for literal in denied if literal):issues.append((str(rel),'confidential literal in binary'))
+            continue
         if p.name not in EXACT and p.suffix not in ALLOWED:issues.append((str(rel),'not in public text-file allowlist'));continue
         try:s=p.read_text(encoding='utf-8')
         except (OSError,UnicodeError):issues.append((str(rel),'unreadable text'));continue

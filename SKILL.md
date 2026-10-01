@@ -9,7 +9,7 @@ Create a coherent animated story, not a slideshow of captions. This package cont
 ## Start
 - Restore the current project's approved direction, script, avatar and rejected versions. Do not restart a design interview for an approved continuation. For a new series without references, establish visual direction before building.
 - Read [style.md](references/style.md) and [story.md](references/story.md). Select concrete cards and cuts from [library.md](references/library.md), then use `assets/ae/pixel-vibe.jsx` rather than rewriting primitives.
-- For AE execution, read [after-effects.md](references/after-effects.md). For final delivery, read [quality.md](references/quality.md). For distribution, read [release.md](references/release.md).
+- For generated red/blue plates, read [backgrounds.md](references/backgrounds.md). For AE execution, read [after-effects.md](references/after-effects.md). For final delivery, read [quality.md](references/quality.md). For distribution, read [release.md](references/release.md).
 
 ## Production contract
 1. Write a dense spoken script with a specific question, evidence and consequence. Verify current product/news/price claims with primary sources; mark judgments as judgments. Do not convert subscription quotas to API cost or invent multipliers. Use “vibe coding”, not “web coding”.
@@ -21,7 +21,7 @@ Create a coherent animated story, not a slideshow of captions. This package cont
 7. Inspect actual exported frames and all transitions, then playback when available. Fix collisions, reversed calendar dates, incorrect click targets and blank tails. Deliver MP4, native AEP, timed voice script, beat sheet and source/license manifest. Say which checks actually ran; a decode pass is not aesthetic approval.
 
 ## Direction defaults after Pixel Vibe selection
-Pixel sky/meadow and moving mint checkerboard, blue desktop windows, paper artifacts, oversized pointer, large outlined display text and deliberate hard pixel edges. All are configurable; preserve the chosen project control. One dominant transition per cut, with complementary secondary motion. Sparse on-screen text carries anchors; narration carries detail. Keep a real reading interval amid fast cuts.
+Pixel sky/meadow and moving mint, red or blue checkerboard (choose per brief), blue desktop windows, paper artifacts, oversized pointer, large outlined display text and deliberate hard pixel edges. All are configurable; preserve the chosen project control. One dominant transition per cut, with complementary secondary motion. Sparse on-screen text carries anchors; narration carries detail. Keep a real reading interval amid fast cuts.
 
 ## Privacy
 This public starter contains no personal portrait, custom avatar, channel URL or production footage. Personal assets belong in a separate project `private/` folder, never in a skill/repository release. Do not copy local journals, credentials, private references or AEP files into a public package. Publishing is a separate user-authorized action, not implied by invoking this skill.
