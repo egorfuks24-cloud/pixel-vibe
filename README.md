@@ -1,4 +1,4 @@
-# Creatoryx · Pixel Vibe
+# Creatorix · Pixel Vibe
 
 Скилл для вертикальных pixel/crazy роликов: живые desktop-окна, бумажные карточки, курсор, разлёт кадра и смысловые переходы. Сборка — в **Adobe After Effects**, нативными слоями и композициями.
 

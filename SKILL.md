@@ -2,7 +2,7 @@
 name: pixel-vibe
 description: Build or refine vertical crazy pixel/collage motion reels in Adobe After Effects using native editable cards, animated environments, semantic transitions, unique illustrations and timed narration. Use when Pixel Vibe is requested or this pixel video direction is selected; not for white editorial reels, talking heads or website animation.
 ---
-# Creatoryx · Pixel Vibe
+# Creatorix · Pixel Vibe
 
 Create a coherent animated story, not a slideshow of captions. This package contains native AE construction primitives and a portable template library; it is not an automatic guarantee of an excellent film.
 
