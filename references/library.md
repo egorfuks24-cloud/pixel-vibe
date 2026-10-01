@@ -16,12 +16,12 @@ Load `assets/ae/pixel-vibe.jsx` with `$.evalFile`; its namespace is `PV`. The de
 | task | Same artifact moves between two panes |
 | portal | Resource selection opens its contents |
 
-Options: `background` (`sky`, `checker`, `red-checker`, `blue-checker`), `title` (short, explicit copy), `font` (installed display font name), `seed` (reserved; current patterns deterministic). Bodies are neutral schematic samples, not production claims. Replace content and layout with the actual beat. Every kind is covered in the demo; scenes retain 0.8s handles.
+Options: `background` (native environment or any ID from [backgrounds.md](backgrounds.md)), `title` (short, explicit copy), `font` (installed display font name), `seed` (reserved; current patterns deterministic). Bodies are neutral schematic samples, not production claims. Replace content and layout with the actual beat. Every kind is covered in the demo; scenes retain 0.8s handles.
 
 ## Environments — `PV.background(comp, 'checker'|'sky'|'red-checker'|'blue-checker')`
 Procedural moving checkerboard; geometric pixel sky/clouds/meadow. Original construction, no photo or third-party game asset. Red/coral and royal/cobalt variants keep the same drifting checker geometry.
 
-`PV.plateBackground(comp, 'red-checker'|'blue-checker')` imports the included AI-generated PNG and animates its pan/rotation with 20% overscan. Use it on a fresh composition before adding foreground layers. These are static source plates with AE motion tracks, not baked animated clips. Native rendering of this new adapter is pending.
+`PV.plateBackground(comp, 'red-checker'|'blue-checker')` imports the included AI-generated PNG and animates its pan/rotation with 20% overscan. Use it on a fresh composition before adding foreground layers. These are static source plates with AE motion tracks, not baked animated clips. The adapter also accepts all 20 new scene IDs; see [backgrounds.md](backgrounds.md). Native rendering of this adapter is pending.
 
 ## Cuts — `PV.cut(master, outgoingComp, start, cutTime, kind)`
 | kind | Motion / meaning |

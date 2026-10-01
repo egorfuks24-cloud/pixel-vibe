@@ -10,3 +10,6 @@
 
 ## v0.1.1 color backgrounds
 9 Python tests pass after adding invalid-PNG coverage. Both color backgrounds and raster adapters pass the AE contract mock. Two AI-generated 9:16 PNG plates visually inspected: red/coral and royal/cobalt checkerboards, no text/people/logos. Procedural variants exercise the existing background geometry. Raster adapter adds pan/rotation with overscan; its Adobe runtime/render remains unverified. PNG chunks inspected for metadata, candidate audited before release.
+
+## v0.2.0 scene library and private avatar recipe
+20 additional original portrait PNGs generated individually, copied into package and visually inspected together in the numbered gallery: varied palettes, clouds and horizons, no text/people/logos. Catalogue stores dimensions/provenance/hashes and generation prompts omit all personal references. Gallery is a thumbnail overview; original images remain unchanged. Native background builder and imports are still awaiting Adobe runtime/render verification. Character workflow is documented; no personal character assets generated or published in this release.

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "01-cyan-cloud-meadow",
+    "file": "01-cyan-cloud-meadow.png",
+    "width": 941,
+    "height": 1672,
+    "description": "bright cyan sky, large stepped white cloud islands framing the upper corners, low lime-green meadow with tiny pixel flowers, clear open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "14e7467ca4c266b30d49e993069c321962f507d7f1e3b723cd5d0ccef9da6ccb"
+  },
+  {
+    "id": "02-red-sunset-clouds",
+    "file": "02-red-sunset-clouds.png",
+    "width": 941,
+    "height": 1672,
+    "description": "coral-red sunset sky, cream stepped clouds stretched horizontally, low burgundy rolling hills, clear open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "7e7885585a0dfadcec6315f1f5d3af244b65b6b6efcbbe1a712c98fae8323ebd"
+  },
+  {
+    "id": "03-cobalt-cloud-stairs",
+    "file": "03-cobalt-cloud-stairs.png",
+    "width": 941,
+    "height": 1672,
+    "description": "deep cobalt-blue sky, chunky luminous pale-blue clouds arranged diagonally near the edges, very low dark-blue stepped terrain, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "0edc758acb1d16e76f36818abc98cc196ead29903df41f1132293fb1b56f477c"
+  },
+  {
+    "id": "04-lavender-cloud-sea",
+    "file": "04-lavender-cloud-sea.png",
+    "width": 941,
+    "height": 1672,
+    "description": "lavender sky, fluffy blocky ivory cloud banks at the lower edge, distant lilac pixel mountains, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "bd2b6f5b259fe208788468613546917b49cee429c73fe95123ef33b0bac8c5a0"
+  },
+  {
+    "id": "05-peach-floating-islands",
+    "file": "05-peach-floating-islands.png",
+    "width": 941,
+    "height": 1672,
+    "description": "warm peach sky, two tiny grassy floating pixel islands at the lower corners, sparse blocky white clouds at top, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "e7f2e32d38b5738bb402ed62b1e08040c17b0e384527f488b3d46864e9c5bdb4"
+  },
+  {
+    "id": "06-mint-cloud-window",
+    "file": "06-mint-cloud-window.png",
+    "width": 941,
+    "height": 1672,
+    "description": "mint-green sky, pixel cloud arch along top and sides, low emerald stepped meadow, very clear center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "472920738f8a45ecc06658166fe7aaf048a2b61e245f54b98dd0da4dde0fd21e"
+  },
+  {
+    "id": "07-yellow-sun-clouds",
+    "file": "07-yellow-sun-clouds.png",
+    "width": 941,
+    "height": 1672,
+    "description": "butter-yellow sky, soft warm-white stepped clouds, a small square sun near upper left edge, low ochre hills, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "d99e136926d5a58896e1d7e8ef4946f89054c781c7790a5a8fbb4255becd1b21"
+  },
+  {
+    "id": "08-pink-cloud-coast",
+    "file": "08-pink-cloud-coast.png",
+    "width": 941,
+    "height": 1672,
+    "description": "bubblegum-pink sky, white stepped clouds, low raspberry pixel coastline and pale pink water, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "bea52c34ffb93a3be5ec27b7221d778fa83e1d0e7c86ce5462a8119ec1c7cc3b"
+  },
+  {
+    "id": "09-teal-cloud-horizon",
+    "file": "09-teal-cloud-horizon.png",
+    "width": 941,
+    "height": 1672,
+    "description": "teal sky, long narrow cream pixel cloud strips near top, distant deep-teal mountain horizon at bottom, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "0552b911372d531143784eace64566cd6fd0470382612aa02dae9a9f8d2ea36a"
+  },
+  {
+    "id": "10-orange-desert-clouds",
+    "file": "10-orange-desert-clouds.png",
+    "width": 941,
+    "height": 1672,
+    "description": "burnt-orange sky, pale peach pixel clouds, low terracotta stepped desert dunes, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "275c3d678d7fe186c68e92784dfbaa88ec3a19426cef3aeb31589aacd3250fc5"
+  },
+  {
+    "id": "11-violet-night-clouds",
+    "file": "11-violet-night-clouds.png",
+    "width": 941,
+    "height": 1672,
+    "description": "violet evening sky, pale lavender stepped clouds at sides, few tiny square stars, low dark purple hills, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "e39145c06ab0bf5f4cffe1729302a381d96ccd017d7c3f34c404941e79318fbf"
+  },
+  {
+    "id": "12-ice-blue-snow-clouds",
+    "file": "12-ice-blue-snow-clouds.png",
+    "width": 941,
+    "height": 1672,
+    "description": "icy light-blue sky, crisp white pixel clouds, low snowy blue mountains and snowfield, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "b5e97131d4c140d7bc2714f4ef78d1b61b357f3827b34d2a876e0b6616a6e8e8"
+  },
+  {
+    "id": "13-red-pixel-checker",
+    "file": "13-red-pixel-checker.png",
+    "width": 941,
+    "height": 1672,
+    "description": "red and coral checkerboard, medium-large square tiles, a thin stepped cream cloud bank at bottom and two small cloud accents near top corners, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "0fdfdd2a9fd144f3dc66c584c714e194933d0fc46697c2021aecb9accdee0b20"
+  },
+  {
+    "id": "14-blue-pixel-checker",
+    "file": "14-blue-pixel-checker.png",
+    "width": 941,
+    "height": 1672,
+    "description": "royal-blue and cobalt checkerboard, medium-large square tiles, broad pale-blue pixel clouds along bottom edge only, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "480ecc31719f8a588276d64e5e6ec0544859032e0afa53d4de5c322708754c43"
+  },
+  {
+    "id": "15-lime-diagonal-tiles",
+    "file": "15-lime-diagonal-tiles.png",
+    "width": 941,
+    "height": 1672,
+    "description": "lime and light chartreuse geometric diagonal pixel steps, restrained repeating pattern, sparse ivory pixel clouds framing top, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "af0ccb0da7bbd2f7de2de0ca0825efd0410e3c182f40a289182bc582561c0e13"
+  },
+  {
+    "id": "16-magenta-cloud-portals",
+    "file": "16-magenta-cloud-portals.png",
+    "width": 941,
+    "height": 1672,
+    "description": "magenta sky, two oversized stepped pale-pink cloud arcs entering from opposite sides, low plum horizon, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "41bd18982b3a342fc33571579f09a31bcb7473a731a32978a6dd2d969fe86f23"
+  },
+  {
+    "id": "17-indigo-moon-clouds",
+    "file": "17-indigo-moon-clouds.png",
+    "width": 941,
+    "height": 1672,
+    "description": "indigo-blue night sky, a small blocky cream crescent moon upper right, pale blue cloud islands at corners, low navy meadow, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "a081d43a90e1dd819dd78737b36f3b375a49a2653b5f11a245ea19717e2a4b6e"
+  },
+  {
+    "id": "18-cream-green-clouds",
+    "file": "18-cream-green-clouds.png",
+    "width": 941,
+    "height": 1672,
+    "description": "warm cream sky, sage and mint stepped clouds like graphic cut-paper pixel shapes, low olive-green hills, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "1d5ed9a38296714e0ba6f0023733e51b1be2b20e8bfbb6ea77a6270f2c21bd13"
+  },
+  {
+    "id": "19-aqua-pixel-ripples",
+    "file": "19-aqua-pixel-ripples.png",
+    "width": 941,
+    "height": 1672,
+    "description": "aqua sky, low turquoise water with crisp horizontal pixel ripple lines, two white blocky clouds at upper corners, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "a744c39fcc435e122b8e584cf4362f7c998c7ecb950fa9afdb84f798609ec506"
+  },
+  {
+    "id": "20-ruby-cloud-mountains",
+    "file": "20-ruby-cloud-mountains.png",
+    "width": 941,
+    "height": 1672,
+    "description": "ruby-red sky, pale blush blocky clouds framing sides, low wine-red angular pixel mountain silhouettes, open center",
+    "origin": "built-in image_gen; no private image input",
+    "license": "MIT",
+    "sha256": "376d6d4ad5aa892c56c74f247504400b2054ac19dd254faf8ab261661899ceda"
+  }
+]

@@ -22,7 +22,10 @@ for(const cut of ['shatter','strips','page','drag','zoom','wipe'])pv.cut(master,
 assert.throws(()=>pv.card('unknown',4.8,{}));assert.throws(()=>pv.card('brief',2,{}));
 assert.throws(()=>pv.cut(master,scenes[0],0,4,'unknown'));
 for(const c of made)for(const l of c.created){if(l.outPoint!==undefined){assert(l.outPoint<=c.duration+.0001,c.name+' overlong layer');if(l.inPoint!==undefined)assert(l.inPoint<l.outPoint,'invalid layer interval');}}
-for(const color of ['red-checker','blue-checker']){const c=pv.comp(color,1080,1920,4);pv.background(c,color);const plate=pv.plateBackground(c,color);assert(plate.motionBlur===false);assert(plate.transform.scale.numKeys===0);assert(plate.transform.position.numKeys===2);pv.card('brief',4.8,{background:color});}
+for(const color of pv.plateNames){const c=pv.comp(color,1080,1920,4);pv.background(c,color);const plate=pv.plateBackground(c,color);assert(plate.motionBlur===false);assert(plate.transform.scale.numKeys===0);assert(plate.transform.position.numKeys===2);pv.card('brief',4.8,{background:color});}
 assert.throws(()=>pv.plateBackground(master,'unknown'));
 assert(propertyCount>100);assert(made.filter(c=>c.name.startsWith('PV calendar leaf')).length===3);
-console.log('PASS: ten card constructors, six cuts, invalid input guards, layer bounds; red/blue backgrounds and raster adapters; mock contract only.');
+console.log('PASS: ten card constructors, six cuts, invalid input guards, layer bounds; all 22 background plates and raster adapters; mock contract only.');
+
+new vm.Script(fs.readFileSync(path.join(root,'scripts/build-background-catalog.jsx'),'utf8'));
+console.log('PASS: background catalog builder syntax; no Adobe runtime claim.');
